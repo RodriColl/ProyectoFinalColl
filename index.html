@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./CSS/style.css">
+	<title>Mundo POKEMON</title>
+</head>
+<body>
+    <h1>TU AVENTURA POKÉMON</h1>
+
+    <div id="intro">
+        <p>A través de praderas extensas y montañas imponentes, se despliega un mundo donde la aventura aguarda en cada esquina. POKEMON y entrenadores se preparan para desafiar lo desconocido y alcanzar la grandeza.</p>
+        <div id="nombreUsuario">
+            <label for="nombre">Dime, pequeño futuro entrenador, ¿cómo te llamas?</label>
+            <input type="text" id="nombre" placeholder="Ingresa tu nombre">
+            <button id="btn-nombre">Confirmar</button>
+        </div>
+    </div>
+
+    <div id="seleccionPokebola" class="oculto">
+        <p>Prof Oak: ¡Este mundo está habitado por unas criaturas llamadas POKEMON! Para algunos, los POKEMON son mascotas, pero otros los usan para pelear. En cuanto a mí... Estudio a los POKEMON como profesión. Pero tú, tu eres un futuro entrenador, ¿estas listo para tu aventura?</p>
+        <p>Porf Oak: Para enfrentarte a tus oponentes debes tener un POKEMON, vamos a encontrarte uno, para ello selecciona una de las siguientes pokebolas.</p>
+        <button class="btnPokebola" data-pokemon="1">Pokebola 1</button>
+        <button class="btnPokebola" data-pokemon="2">Pokebola 2</button>
+        <button class="btnPokebola" data-pokemon="3">Pokebola 3</button>
+    </div>
+
+    <div id="pokedex" class="oculto">
+        <p>Prof Oak: AH!, se me olvidaba, ten esto, es una POKEDEX, cuando te encuentres con un pokemon salvaje o de un entrenador, puedes escanearlo para que te diga su nombre y sus estadisticas. Ahora si estas listo para salir y explorar todo Kanto.</p>
+        <button id="btnAventura">SAL A TU AVENTURA (Pokémon salvaje)</button>
+        <button id="btnFiltrar">Filtrar Pokémon por tipo</button>
+        <input type="text" id="inputTipo" placeholder="Normal, Veneno, Dragón, Lucha, Psíquico">
+    </div>
+
+    <div id="resultado"></div>
+	
+    <div id="pelea" class="oculto">
+        <p>¡Pelea Pokémon!</p>
+        <button id="btnSimularPelea">PELEAR</button>
+    </div>
+    
+    <script src="./JS/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

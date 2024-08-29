@@ -1,0 +1,9 @@
+[
+    {"nombre": "Eevee", "tipo": "Normal", "fuerza": 55, "defensa": 50, "evolucion": 1, "fuerte": "", "debil": "Lucha"},
+    {"nombre": "Gengar", "tipo": "Veneno", "fuerza": 65, "defensa": 60, "evolucion": 3, "fuerte": "Psíquico", "debil": "Tierra"},
+    {"nombre": "Toxapex", "tipo": "Veneno", "fuerza": 75, "defensa": 50, "evolucion": 2, "fuerte": "Psíquico", "debil": "Tierra"},
+    {"nombre": "Dragonite", "tipo": "Dragón", "fuerza": 134, "defensa": 95, "evolucion": 3, "fuerte": "Hierba, Lucha", "debil": "Hielo, Roca"},
+    {"nombre": "Lucario", "tipo": "Lucha", "fuerza": 110, "defensa": 70, "evolucion": 2, "fuerte": "Hielo, Roca", "debil": "Fuego, Lucha, Tierra"},
+    {"nombre": "Gardervoir", "tipo": "Psíquico", "fuerza": 85, "defensa": 65, "evolucion": 3, "fuerte": "Lucha", "debil": "Veneno, Acero"},
+    {"nombre": "Alakazam", "tipo": "Psíquico", "fuerza": 120, "defensa": 45, "evolucion": 3, "fuerte": "Lucha, Veneno", "debil": "Bicho, Fantasma"}
+]
